@@ -5,10 +5,10 @@ const Format = () => {
     <div
       style={{
         alignItems: "center",
-        margin: "2em",
-        border: "1px solid black",
+        margin: "2.5em",
+        border: "1.5px solid black",
         padding: "3em",
-        boxShadow: "2px 1px 10px grey",
+        boxShadow: "4px 2px 20px grey",
       }}
     >
       <Row>

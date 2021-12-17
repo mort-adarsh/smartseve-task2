@@ -1,11 +1,11 @@
 import React from "react";
 import { Container, Table } from "react-bootstrap";
-import Display_el from "./Dispaly_el";
+import Table_Format from "./Table_Format";
 const Display = ({ files }) => {
   return (
     <>
       <Container>
-        <Table striped bordered hover>
+        <Table striped bordered hover variant="dark">
           <thead>
             <tr>
               <th>S.no</th>
@@ -15,7 +15,7 @@ const Display = ({ files }) => {
           </thead>
           <tbody>
             {files.map((data, index) => {
-              return <Display_el key={index} index={index} data={data} />;
+              return <Table_Format key={index} index={index} data={data} />;
             })}
           </tbody>
         </Table>

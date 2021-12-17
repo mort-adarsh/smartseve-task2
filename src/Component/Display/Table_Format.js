@@ -1,6 +1,6 @@
 import React from "react";
 import {} from "react-bootstrap";
-const Display_el = ({ data, index }) => {
+const Table_Format = ({ data, index }) => {
   return (
     <tr>
       <td>{index + 1}</td>
@@ -10,4 +10,4 @@ const Display_el = ({ data, index }) => {
   );
 };
 
-export default Display_el;
+export default Table_Format;

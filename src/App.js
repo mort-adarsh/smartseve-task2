@@ -1,9 +1,9 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container } from "react-bootstrap";
 import { useState } from "react";
-import Home from "./Component/Home";
+import Home from "./Component/Display/Home";
 import { Route, Switch } from "react-router-dom";
-import Display from "./Component/Display";
+import Display from "./Component/Display/Display";
 
 function App() {
   let [files, setFiles] = useState([]);

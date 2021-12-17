@@ -1,8 +1,8 @@
 import React from "react";
 
-import Fields from "./Fields/Fields";
-import Format from "./Format/Format";
-import Input from "./Input/input";
+import Fields from "../Fields/Fields";
+import Format from "../Format/Format";
+import Input from "../Input/input";
 import { Row, Col } from "react-bootstrap";
 
 const Home = ({ files, setField, setFiles, field }) => {
@@ -17,7 +17,7 @@ const Home = ({ files, setField, setFiles, field }) => {
           <Format />
         </Col>
 
-        <Col xs={10}>
+        <Col xs={12}>
           <Fields fields={field} />
         </Col>
       </Row>

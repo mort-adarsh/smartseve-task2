@@ -13,21 +13,26 @@ const Fields = ({ fields }) => {
     <div
       style={{
         alignItems: "center",
-        margin: "2em",
-        border: "1px solid black",
-        padding: "1em",
-        boxShadow: "2px 1px 10px grey",
+        margin: "2.5em",
+        border: "1.5px solid black",
+        padding: "2em",
+        boxShadow: "5px 2px 15px grey",
       }}
     >
       <span>Display Handling</span>
       <br /> <br />
       Select the fields to be displayed
+      <div style={{
+        margin: "2.5em",
+      }}>
       <Row>
         <Col xs={12} md={3}>
           Available Fields
+          <br />
         </Col>
         <Col xs={2}></Col>
         <Col md={3}>Fields to be Displayed</Col>
+        <br /><br />
       </Row>
       <Row>
         <Col md={3} style={{ border: "1px solid grey" }}>
@@ -63,6 +68,7 @@ const Fields = ({ fields }) => {
           )}
         </Col>
       </Row>
+      </div>
       {Final ? (
         <>
           <Row className="m-2">
